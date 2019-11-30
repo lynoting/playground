@@ -1,3 +1,4 @@
 # playground
-visit here to see how i play -->
-https://lynoting.github.io/playground/
+under construction
+
+here i play --> https://lynoting.github.io/playground/
