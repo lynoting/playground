@@ -1,0 +1,11 @@
+#targetImgDiv {
+    height:50px;
+    width:50px;
+    padding:3px;
+    background-color:red;
+}
+ 
+#targetImg {
+    height:100%;
+    width:100%;
+}
