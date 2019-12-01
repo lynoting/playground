@@ -1,0 +1,43 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css';
+
+.headerFooter {
+    padding-top: 10vh;
+    width: 100px;
+    height: 60px;
+    margin: auto;
+    font-size: 75%;
+    text-align: center;
+}
+
+.pepImageBack {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.textcardContainer {
+    position: relative;
+    width: 40vw;
+    height: 70vh;
+    margin: 0 auto;
+    padding-top: 10vh;
+    top: 10px;
+    align-self: center;
+}
+
+.pepTextCard {
+    color: #333;
+    border-radius: 4px;
+    border: 1px solid #eee;
+    list-style-type: none;
+    position: absolute;
+    top: 0;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 0px 2px 1px rgba(238, 238, 238, 1);
+    padding: 16px;
+    font-size: 80%;
+    line-height: 1.5em;
+}

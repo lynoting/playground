@@ -1,78 +1,47 @@
 <html>
 
 <head>
+
+    <!-- metadata -->
     <meta charset="UTF-8" />
     <title>neither naked nor boiled</title>
+
+    <!-- CSS  -->
     <link rel="stylesheet" type="text/css" href="./css/index.css" />
+
+    <!-- libraries  -->
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="https://rawgithub.com/briangonzalez/jquery.pep.js/master/src/jquery.pep.js"></script>
 
-    <script type="text/javascript" src="./js/CardData.js"></script>
+    <!-- JS files  -->
     <script type="text/javascript" src="./js/index.js"></script>
-
-    <style type="text/css">
-        @import 'https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css';
-
-        .pepImageFront {
-            padding-top: 10vh;
-            width: 100px;
-            height: 60px;
-            margin: auto;
-            font-size: 75%;
-            text-align: center;
-        }
-
-        .pepImageBack {
-            position: absolute;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-            margin: auto;
-        }
-
-        .js-textcardContainer {
-            position: relative;
-            width: 40vw;
-            height: 40vh;
-            margin: 0 auto;
-            padding-top: 10vh;
-            top: 10px;
-            align-self: center;
-        }
-
-        .pepTextCard {
-            color: #333;
-            border-radius: 4px;
-            border: 1px solid #eee;
-            list-style-type: none;
-            position: absolute;
-            top: 0;
-            background: rgba(255, 255, 255, 0.9);
-            box-shadow: 0px 0px 2px 1px rgba(238, 238, 238, 1);
-            padding: 16px;
-            font-size: 80%;
-            line-height: 1.5em;
-        }
-
-        .TextCardInner {
-            overflow: hidden;
-            height: 100%;
-        }
-    </style>
+    <script type="text/javascript" src="./js/CardData.js"></script>
 
 </head>
 
 <body>
-    <div class="pepImageFront">
+
+    <!-- header  -->
+    <div class="headerFooter">
         <img src="./img/kueru.JPG" alt="Smiley face" height="45" width="45">
         <br>煮ても焼いても
     </div>
+
+    <!-- cards containter  -->
     <div>
-        <ul class="js-textcardContainer">
+        <ul class="textcardContainer">
             <img src="./img/kuenai.JPG" class="pepImageBack" alt="Smiley face" height="45" width="45">
         </ul>
     </div>
+
+    <!-- footer -->
+    <div class="headerFooter">
+        <a href="https://twitter.com/kkhaiya">s.kawano</a>
+        <br> 20191201
+        <br>
+        <a href="https://github.com/lynoting/playground">github pages</a>
+    </div>
+
 </body>
 
 </html>
